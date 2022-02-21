@@ -71,7 +71,7 @@
 }
 
 body {
-    width: 1200px;
+    width: 1100px;
     margin: 0 auto;
     font-family: calibri, optima;
 }
@@ -116,7 +116,7 @@ a:hover {
 /* .container.image */
 
 img.meditation, .dark.meditation {
-    width: 1200px;
+    width: 1100px;
     height: 500px;
     border-radius: 10px;
 }
@@ -160,12 +160,12 @@ div.subtitle {
 }
 
 .column {
-    width: 23%;
+    width: 210px
 }
 
 .central {
-    width: 50%;
-    margin: 0 2%;
+    width: 600px;
+    margin: 0 40px;
 }
 
 .column, .central {
@@ -173,7 +173,7 @@ div.subtitle {
 }
 
 aside img, .dark-column{
-    width: 276px;
+    width: 210px;
     height: 180px;
     border-radius: 10px;
 }
@@ -195,3 +195,11 @@ section img {
 }
 
 /* #site-footer */
+
+/* #site-footer > div {
+    height: 100px;
+}
+
+#site-footer span {
+    color: red;
+} */
