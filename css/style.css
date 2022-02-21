@@ -196,10 +196,13 @@ section img {
 
 /* #site-footer */
 
-/* #site-footer > div {
-    height: 100px;
+#site-footer > div {
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    vertical-align: middle;
 }
 
 #site-footer span {
     color: red;
-} */
+}
