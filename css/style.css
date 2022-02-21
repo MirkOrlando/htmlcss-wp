@@ -10,6 +10,10 @@
     height: 50px;
 }
 
+.debug #site-main {
+    background-color: aliceblue;
+}
+
 .debug main > .container.image {
     background-color: cadetblue;
     height: 500px;
@@ -96,19 +100,42 @@ a:hover {
 /* #site-main */
 
 #site-main {
-    background-color: aliceblue;
     margin: 0 0 2rem;
 }
 
-main > .container.image {
+#site-main > div.container.image {
     margin: 0 0 2rem;
+}
+
+img.meditation, .dark {
+    width: 1440px;
+    height: 600px;
+    border-radius: 10px;
+}
+
+.dark {
+    background-color: rgba(120, 120, 120, 0.5);
+    position: absolute;
+    top: 0;
+}
+
+img.meditation {
+    object-fit: cover;
 }
 
 .container.description {
-    width: 600px;
+    width: 700px;
     position: absolute;
     left: 2.5rem;
     bottom: 4.5rem;
+    color: white;
+    font-size: 1.25rem;
+}
+
+
+
+.container.description > .title {
+    font-size: 2.5rem;
 }
 
 .content.title {
