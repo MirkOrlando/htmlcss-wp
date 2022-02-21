@@ -1,0 +1,109 @@
+/* utility */
+
+.relative {
+    position: relative;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* common */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+/* debug */
+
+.debug .container.logo {
+    background-color: lightsalmon;
+    height: 100px;
+}
+
+.debug #header-nav {
+    background-color: gold;
+    height: 50px;
+}
+
+.debug main > .container.image {
+    background-color: cadetblue;
+    height: 500px;
+}
+
+.debug .container.description {
+    background-color: darkkhaki;
+    height: 100px;
+}
+
+.debug .content.title {
+    background-color: crimson;
+    height: 80px;
+}
+
+.debug .column, .debug .central {
+    background-color: coral;
+    height: 550px;
+}
+
+.debug .column > .container.image, .debug .central > .container.image {
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 235px;
+}
+
+.debug #site-footer {
+    background-color: lightslategray;
+    height: 75px;
+}
+
+/* #site-header */
+
+#site-header {
+    margin: 0 0 2rem;
+}
+
+/* #site-main */
+
+#site-main {
+    background-color: aliceblue;
+    margin: 0 0 2rem;
+}
+
+main > .container.image {
+    margin: 0 0 2rem;
+}
+
+.container.description {
+    width: 600px;
+    position: absolute;
+    left: 2.5rem;
+    bottom: 4.5rem;
+}
+
+.content.title {
+    margin: 0 0 2rem;
+}
+
+.column {
+    width: 23%;
+}
+
+.central {
+    width: 50%;
+    margin: 0 2%;
+}
+
+.column, .central {
+    float: left;
+}
+
+/* #site-footer */
