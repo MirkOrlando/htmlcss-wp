@@ -50,6 +50,12 @@
     position: relative;
 }
 
+.dark {
+    background-color: rgba(120, 120, 120, 0.5);
+    position: absolute;
+    top: 0;
+}
+
 .clearfix::after {
     content: "";
     display: table;
@@ -65,7 +71,7 @@
 }
 
 body {
-    width: 1440px;
+    width: 1200px;
     margin: 0 auto;
     font-family: calibri, optima;
 }
@@ -109,16 +115,10 @@ a:hover {
 
 /* .container.image */
 
-img.meditation, .dark {
-    width: 1440px;
-    height: 600px;
+img.meditation, .dark.meditation {
+    width: 1200px;
+    height: 500px;
     border-radius: 10px;
-}
-
-.dark {
-    background-color: rgba(120, 120, 120, 0.5);
-    position: absolute;
-    top: 0;
 }
 
 img.meditation {
@@ -126,16 +126,16 @@ img.meditation {
 }
 
 .container.description {
-    width: 700px;
+    width: 600px;
     position: absolute;
     left: 2.5rem;
     bottom: 4.5rem;
     color: white;
-    font-size: 1.25rem;
+    font-size: 1rem;
 }
 
 .container.description > .description.title {
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 /* .container.content */
@@ -145,11 +145,17 @@ img.meditation {
 }
 
 h1.title {
-    font-size: 3.5rem;
+    font-size: 2.75rem;
 }
 
 div.subtitle {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
+    color: #939393;
+}
+
+/* .row */
+
+.row {
     color: #939393;
 }
 
@@ -164,6 +170,28 @@ div.subtitle {
 
 .column, .central {
     float: left;
+}
+
+aside img, .dark-column{
+    width: 276px;
+    height: 180px;
+    border-radius: 10px;
+}
+
+aside img {
+    object-fit: cover;
+    object-position: center;
+}
+
+section img, .dark-central {
+    width: 600px;
+    height: 180px;
+    border-radius: 10px;
+}
+
+section img {
+    object-fit: cover;
+    object-position: center;
 }
 
 /* #site-footer */
