@@ -12,6 +12,7 @@
 
 .debug #site-main {
     background-color: aliceblue;
+    margin: 0 0 2rem;
 }
 
 .debug main > .container.image {
@@ -82,6 +83,10 @@ body {
     margin: 0 0 2rem;
 }
 
+.container.logo {
+    padding-top: 1rem;
+}
+
 img.logo {
     height: 69px;
     width: 163px;
@@ -105,12 +110,8 @@ a:hover {
 
 /* #site-main */
 
-#site-main {
-    margin: 0 0 2rem;
-}
-
 #site-main > div.container.image {
-    margin: 0 0 2rem;
+    margin: 0 0 1,5rem;
 }
 
 /* .container.image */
@@ -140,8 +141,11 @@ img.meditation {
 
 /* .container.content */
 
+/* .row */
+
 .content.title {
-    margin: 0 0 2rem;
+    margin: 0 0 1.5rem;
+    color: black;
 }
 
 h1.title {
@@ -152,8 +156,6 @@ div.subtitle {
     font-size: 1.25rem;
     color: #939393;
 }
-
-/* .row */
 
 .row {
     color: #939393;
@@ -194,13 +196,28 @@ section img {
     object-position: center;
 }
 
+h2 {
+    margin: 0.5rem 0;
+}
+
+.row {
+    padding: 1.5rem 0;
+    border-bottom: 1px solid rgba(120, 120, 120, 0.2);
+}
+
+.sm {
+    object-fit: contain;
+    object-position: center;
+}
+
 /* #site-footer */
 
 #site-footer > div {
-    height: 50px;
+    height: 75px;
     text-align: center;
-    line-height: 50px;
+    line-height: 75px;
     vertical-align: middle;
+    font-size: 1.25rem;
 }
 
 #site-footer span {
